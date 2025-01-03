@@ -53,7 +53,7 @@ module Puma
 
     # The maximum number of bytes we'll buffer looking for a valid
     # chunk header.
-    MAX_CHUNK_HEADER_SIZE = 4096
+    MAX_CHUNK_HEADER_SIZE = 16384
 
     # The maximum amount of excess data the client sends
     # using chunk size extensions before we abort the connection.
